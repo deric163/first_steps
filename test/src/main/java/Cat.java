@@ -1,5 +1,14 @@
 /**
- * Created by Администратор on 30.04.2017.
+ * Created by deric on 02.05.2017.
  */
-public class Cat {
+public abstract class Cat {
+    String name;
+    int age;
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+
+    }
+public abstract void mew();
 }
